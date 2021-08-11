@@ -1,0 +1,7 @@
+services:
+    tor-service:
+        container_name: tor-service
+        build: .
+        image: tor-service:latest
+        ports:
+            - 8080:80
